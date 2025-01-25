@@ -15,11 +15,11 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/micr0softstore/android_kernel_samsung_exynos7870
-          kernel-branch: h-kernel_permissive
+          kernel-url: https://github.com/micr0softstore/android_kernel_samsung_exynos7870-dev-4.x
+          kernel-branch: main
           config: exynos7870-j5y17lte_defconfig
           arch: arm64
-          aosp-gcc: false
+          aosp-gcc: true
           other-gcc64-url: https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/runtime-gcc-linaro-7.5.0-2019.12-aarch64-linux-gnu.tar.xz
           ksu: true
           ksu-version: main
