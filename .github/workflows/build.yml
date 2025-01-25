@@ -20,6 +20,7 @@ jobs:
           config: exynos7870-j5y17lte_defconfig
           arch: arm64
           aosp-gcc: true
+          other-gcc64-url: https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/runtime-gcc-linaro-7.5.0-2019.12-aarch64-linux-gnu.tar.xz
           ksu: true
           ksu-version: main
           android-version: 10
