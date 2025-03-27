@@ -17,10 +17,9 @@ jobs:
       with:
           kernel-url: https://github.com/jiganomegsdfdf/android_kernel_samsung_golden
           kernel-branch: 3.4-andbinder10
-          config: a13ve_defconfig
-          arch: arm64
+          config: golden_defconfig
+          arch: arm
           aosp-gcc: true
-          ksu: true
-          ksu-version: main
+          ksu: false
           python-27: true
           anykernel3: true
