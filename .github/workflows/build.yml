@@ -16,7 +16,7 @@ jobs:
       uses: dabao1955/kernel_build_action@main
       with:
           kernel-url: https://github.com/jiganomegsdfdf/android_kernel_samsung_golden
-          kernel-branch: 3.4-andbinder10
+          kernel-branch: 3.4-and10binder
           config: golden_defconfig
           arch: arm
           aosp-gcc: true
