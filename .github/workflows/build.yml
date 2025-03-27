@@ -15,8 +15,8 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/balazskokai/android_kernel_samsung_a13ve
-          kernel-branch: perm1-u8
+          kernel-url: https://github.com/jiganomegsdfdf/android_kernel_samsung_golden
+          kernel-branch: 3.4-andbinder10
           config: a13ve_defconfig
           arch: arm64
           aosp-gcc: true
